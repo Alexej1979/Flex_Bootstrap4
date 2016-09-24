@@ -1,0 +1,250 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    min-width: 320px;            
+}
+
+.form-group
+{
+    margin:0;
+}
+.login-btn
+{
+    display: inline;
+    margin-right: 30px;
+}
+
+.postion
+{
+    position: relative;
+}
+
+a:focus, a:hover 
+{   
+    text-decoration: none;
+    color: #fd7b64;
+    cursor: pointer;
+}   
+
+#js-ripple-btn
+{
+    padding: 10px 0;
+    background-image: linear-gradient(to bottom,#fd7b64 0,#f35a3f 100%);
+    min-width: 150px;
+    font-size: 16px;
+}
+
+h1
+{
+    font-size: 19px;
+    margin:0;    
+}
+
+a
+{
+    color: #fd7b64;
+}
+ 
+.search {    
+    
+    background-image: url(../img/bg-search.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding: 10px 20px;
+}
+
+.find-doctor-text, .country-style
+{
+    color: #FFF;    
+}
+
+.changeCountryOnClick
+{
+    width: 150px;
+}
+
+div.open .caret
+{
+    color: red;
+}
+
+#search_find {
+    background: url(../img/bg-btn-search.png) center no-repeat;
+    background-size: 100% 100%; 
+    height: 60px;
+    width: 119px;
+    border: 0;
+    box-shadow: none;   
+    font-size: 23px;
+}
+
+.allCountries
+{
+    overflow-y: scroll;    
+    height: 150px;
+}
+
+
+.dropdown-menu
+{
+    min-width: 175px;
+}
+
+.top{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+.top li
+{
+    margin-right: 20px;
+    
+}
+
+.top li a
+{
+    color: white;
+    text-decoration: underline;
+}
+    
+ .popularCountry
+{
+    
+    text-decoration: underline;
+}
+
+.centerFlex
+{
+   padding-top: 25px;
+}
+
+.borderColor
+{
+    border: 1px solid #84af00;
+    color:#84af00;
+}
+
+.paddindWatchIt img
+{    
+   padding-top: 5px;   
+}
+
+.paddindWatchIt
+{
+    padding-right: 0;
+}
+
+.WatchIt
+{
+    font-size: 24px;
+    font-family: 'PT Sans',sans-serif;
+}
+
+.popup
+{
+    position: absolute;
+    top:0;
+    right:0;    
+    display: none;
+    background-color: white;
+    border: 1px solid red;
+    z-index: 1000;        
+    padding: 10px;
+}
+
+.popup input
+{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.popup input:first-child
+{
+    margin-top: 50px;
+}
+
+#js-ripple-btn
+{
+    z-index: 2000;
+}
+
+.popup .btn
+{
+    display: block;
+}
+
+.minWidth
+{
+    min-width: 200px;
+}
+
+.patients
+{
+    
+    display: table-cell;
+}
+
+.patients h1
+{
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+select.form-control:not([size]):not([multiple]) 
+{
+    height: 2.38rem
+}
+
+.padding-left
+{
+    padding-left: 0;
+}
+
+
+@media (max-width: 1200px)
+{
+.WatchIt
+{
+    font-size: 1.3em;
+    font-family: 'PT Sans',sans-serif;
+}
+.HowIt
+{
+    font-size: 0.9em;
+    font-family: 'PT Sans',sans-serif;
+}
+}
+
+@media (max-width: 990px)
+{
+.tel
+{
+    font-size: 1.2em;
+    font-family: 'PT Sans',sans-serif;
+}
+.WatchIt
+{
+    font-size: 1em;
+    font-family: 'PT Sans',sans-serif;
+}
+.HowIt
+{
+    font-size: 0.7em;
+    font-family: 'PT Sans',sans-serif;
+}
+
+#search_find {
+    height: 50px;
+    width: 80px;
+}
+.borderColor img
+{
+    width: 35px;
+}
+}
